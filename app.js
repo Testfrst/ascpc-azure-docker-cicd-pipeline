@@ -3,7 +3,7 @@ const app = express();
 const port = 80;
 
 app.get('/', (req, res) => {
-  res.send('Welcome to your ASCPC web app....yes!');
+  res.send('Welcom!');
 });
 
 // NEW: Route to print environment variables
